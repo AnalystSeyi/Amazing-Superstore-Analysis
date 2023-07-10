@@ -40,7 +40,7 @@ Hence new column and Tables were created, which are listed below
 
    **∴ Selling Price = Revenue - Profit**
 
-- Another column is created named <kbd>SP_before_Dis</kbd> which stand for Selling Price Before Discount
+- Another column was created named <kbd>SP_before_Dis</kbd> which stand for Selling Price Before Discount
 
    - The formula below is used if the <kbd>discount column</kbd> is in decimals
      
@@ -50,11 +50,11 @@ Hence new column and Tables were created, which are listed below
 
      SP_before_Dis = (100 * Orderbreakdown[Sales] ) / ( 100 - Orderbreakdown[Discount] )
      <br><br>
-   The financial formula above shows the original selling price before discount is applied, let me break it down to show how we arrived at the above.
+   The above financial formula shows the original selling price before discount is applied, let me break it down to show how we arrived at the above.
    <br><br>
      ![](Formula2.png)
 
-- A column was created for **profit without discount** (<kbd>Profit_B4_Dis </kbd>) been applied on the selling price, this column shows the profitability of the company without applying any discount on sales.
+- A column was created for **profit without discount** (<kbd>Profit_B4_Dis </kbd>), this column shows the profitability of the company without applying any discount on sales.
 
       Cost of sale is Unique and Universal
   
@@ -64,12 +64,12 @@ Hence new column and Tables were created, which are listed below
   
       Selling Price is also known as cost of sales.
   
-      Formula used is below
+      The Formula used is shown below
   
       <kbd> Profit_B4_Dis = Orderbreakdown[SP_before_Dis] - Orderbreakdown[Cost of Sales] </kbd>
 
  - A column named <kbd>Yes&No</kbd> was created, which state If Discount = 0 return No and If Discount > 0 is to return Yes
- - A Measure Table was created to house my Dax Functions
+ - A Measure Table was created to house the Dax Functions
 
 
 
