@@ -141,7 +141,13 @@ The visual above was done with the use of bookmarking, which means that we have 
 **Analyzing the visual above**
 
 The chat shows that number of order have increased over the years.
-From **1462 orders** in the year **2011** to **1871 orders** in **2012**, **2101 order** in **2013** and **2613 order** in **2014**. 
+From **1462 orders** in the year **2011** to **1871 orders** in **2012**, **2101 order** in **2013** and **2613 order** in **2014**. <br>
 Basic economic theories states that increase in number of orders is directly proportional to profit.
+ 
+<br> 
+
+![](Salechat.png)
     
+The visual above shows the 3 important metrics on the dataset, which are **Sales**, **Cost of Sale** and **Profit**. They have been on a constant upward linear trend.<br> These good metrics are as a result of the periodic increase in the number of orders over the years. <br> If all the metrics are good, why is the company profit (12%) below the industry average?
+This lead me to calculating the year to year profitability of the company 
 
