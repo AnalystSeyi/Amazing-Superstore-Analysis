@@ -83,8 +83,9 @@ You must understand the snowflake model which will enable you know how to carry 
    - 	For <kbd>Orderbreakdown Table</kbd> and <kbd>Listoforders Table</kbd> is <kbd>Order ID</kbd>
    - 	For <kbd>Listoforders Table</kbd>  and <kbd>Calendar Table</kbd> is <kbd>Order Date</kbd> and <kbd>Date</kbd> Respectively.
 
-    ![](Snowflake.png)
-    ![](Snowflake.png)
+![](Snowflake.png)
+
+##
 
     
 
