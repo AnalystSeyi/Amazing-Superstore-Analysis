@@ -1,2 +1,3 @@
-# Amazing-Superstore-Analysis
-Power BI &amp; Excel
+# Amazing Superstore Sales Analysis
+![](Home.png)
+
