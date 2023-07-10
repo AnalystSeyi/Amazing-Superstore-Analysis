@@ -68,6 +68,9 @@ Hence new column and Tables were created, which are listed below
   
       <kbd> Profit_B4_Dis = Orderbreakdown[SP_before_Dis] - Orderbreakdown[Cost of Sales] </kbd>
 
+ - A column named <kbd>Yes&No</kbd> was created, which state If Discount = 0 return No and If Discount > 0 is to return Yes
+ - A Measure Table was created to house my Dax Functions
+
 
 
 
