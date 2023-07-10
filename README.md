@@ -132,7 +132,9 @@ According to the data the following visual were derived.
 
    1. The **Total Profit** for the entire given period between **2011 to 2014** is **$283,240** which is **12%** of the **Total Sale "$2,348,482"** which is less than the **Industry Average**. Despite the company is making profit but the company profitability is lesser than the industry average.
    2. At this point, the data was further observed and amazing insight were uncovered
-<br>  
+<br>
+
+**Total Order by Year**
 
 ![](OrderbyY.png)
 
@@ -146,8 +148,31 @@ Basic economic theories states that increase in number of orders is directly pro
  
 <br> 
 
+**Sales Chat**
+
 ![](Salechat.png)
     
 The visual above shows the 3 important metrics on the dataset, which are **Sales**, **Cost of Sale** and **Profit**. They have been on a constant upward linear trend.<br> These good metrics are as a result of the periodic increase in the number of orders over the years. <br> If all the metrics are good, why is the company profit (12%) below the industry average?
 This lead me to calculating the year to year profitability of the company 
+ 
+<br> 
+
+**Year on Year Profit Growth**
+
+![](Yoygrowth.png)
+
+It’s itersting to find out that despite the good metrics and increase in profit over the year, the year to year profitability growth of the company has been on a constant downward trend. Which is **21.57%** in **2012** down to **16.58%** in **2013** and **10.53%** in **2014** and this is over **50%** decline in profit growth over the last 3 years.
+It’s an eye opener, the dataset further probe to find out what is responsible for the downward trend in profit growth.
+The impact of discount on the overall profitability was analysed
+
+<br> 
+
+**Sales without Discount**
+
+![](profit_without_discount.png)
+
+**Total Profit without Discount** (Meaning no discount was applied on sales) is **$680,396** which is **29%** of the total sales **$2,348,482**. This is greater than the industry Average.
+
+**All The metrics shown above are not peculiar to a particular year or category but Universal**. 
+
 
