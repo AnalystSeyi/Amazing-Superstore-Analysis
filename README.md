@@ -113,7 +113,35 @@ Complex Dax functions were employed to solve business problem.
 <br><br>
 **Home Page**
 
-    
+![](Home.png)
 
+The visaul above is an Home page which made it easy for navigating between different pages of this report.
+The following pages below can be interacted with on the Home Page.
+
+   1. Sales Dashboard (SD) : This shows the day to day operation of the Company
+   2. Profit Discount Analysis (PDA) : Relationship between Profit and Discount
+   3. Country Discount Analysis (CDA) : Analysis of Countries by Discount
+   4. Drill Country Discount Analysis (DCDA) : Drill down country Performance
+   5. Detail Table (DT)
+<br><br>
+**Home Page**
+
+![](Dashboard.png)
+
+According to the data the following visual were derived.
+
+   1. The **Total Profit** for the entire given period between **2011 to 2014** is **$283,240** which is **12%** of the **Total Sale "$2,348,482"** which is less than the **Industry Average**. Despite the company is making profit but the company profitability is lesser than the industry average.
+   2. At this point, the data was further observed and amazing insight were uncovered
+<br>  
+
+![](OrderbyY.png)
+
+The visual above was done with the use of bookmarking, which means that we have 3 different visual in one. This can be switched from one visual to another i.e From **Order by Year** to **Sales Chat** and **Year on Year Growth**. 
+
+**Analyzing the visual above**
+
+The chat shows that number of order have increased over the years.
+From **1462 orders** in the year **2011** to **1871 orders** in **2012**, **2101 order** in **2013** and **2613 order** in **2014**. 
+Basic economic theories states that increase in number of orders is directly proportional to profit.
     
 
