@@ -71,6 +71,24 @@ Hence new column and Tables were created, which are listed below
  - A column named <kbd>Yes&No</kbd> was created, which state If Discount = 0 return No and If Discount > 0 is to return Yes
  - A Measure Table was created to house the Dax Functions
 
+   ![](Table.png)
+   
+## Data Modelling 
 
+The data provided for this analysis are located on two tables and new a new Calendar table was also created. 
+Therefore, an appropriate modelling is required. A Snowflake model is designed with the <kbd>Orderbreakdown Table</kbd> representing the Fact table containing all the day to day activities of the business, the dimension tables are the <kbd>Listoforders Table</kbd> and <kbd>Calendar Table</kbd>
 
+You must understand the snowflake model which will enable you know how to carry out your filters and direction of filter.
+
+   - 	For <kbd>Orderbreakdown Table</kbd> and <kbd>Listoforders Table</kbd> is <kbd>Order ID</kbd>
+   - 	For <kbd>Listoforders Table</kbd>  and <kbd>Calendar Table</kbd> is <kbd>Order Date</kbd> and <kbd>Date</kbd> Respectively.
+
+    ![](Snowflake.png)
+    ![](Snowflake.png)
+
+    
+
+    
+
+    
 
