@@ -56,13 +56,17 @@ Hence new column and Tables were created, which are listed below
 
 - A column was created for **profit without discount** (<kbd>Profit_B4_Dis </kbd>) been applied on the selling price, this column shows the profitability of the company without applying any discount on sales.
 
-    Cost of sale is Unique and Universal
-    Profit = Revenue - Selling Price without Discount
-    Revenue is also knows as sales
-    Selling Price is also known as cost of sales.
-    Formula used is below
+      Cost of sale is Unique and Universal
   
-   <kbd> Profit_B4_Dis = Orderbreakdown[SP_before_Dis] - Orderbreakdown[Cost of Sales] </kbd>
+      Profit = Revenue - Selling Price without Discount
+  
+      Revenue is also knows as sales
+  
+      Selling Price is also known as cost of sales.
+  
+      Formula used is below
+  
+      <kbd> Profit_B4_Dis = Orderbreakdown[SP_before_Dis] - Orderbreakdown[Cost of Sales] </kbd>
 
 
 
