@@ -49,8 +49,20 @@ Hence new column and Tables were created, which are listed below
    - This formula below is used if the <kbd>discount column</kbd> is in percentage 
 
      SP_before_Dis = (100 * Orderbreakdown[Sales] ) / ( 100 - Orderbreakdown[Discount] )
-     
-   The above is a financial formula's showing the original selling price before discount is applied, let me break it down, to show you how we arrived at the above.
+     <br><br>
+   The financial formula above shows the original selling price before discount is applied, let me break it down to show how we arrived at the above.
+   <br><br>
+     ![](Formula2.png)
+
+- A column was created for **profit without discount** (<kbd>Profit_B4_Dis </kbd>) been applied on the selling price, this column shows the profitability of the company without applying any discount on sales.
+
+    Cost of sale is Unique and Universal
+    Profit = Revenue - Selling Price without Discount
+    Revenue is also knows as sales
+    Selling Price is also known as cost of sales.
+    Formula used is below
+  
+   <kbd> Profit_B4_Dis = Orderbreakdown[SP_before_Dis] - Orderbreakdown[Cost of Sales] </kbd>
 
 
 
