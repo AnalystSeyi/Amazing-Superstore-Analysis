@@ -1,7 +1,8 @@
+##
 # Amazing Superstore Analysis
 
 ![](Home-Electronics.jpg)
-
+<br><br>
 ## Introduction
 
 **Type of Data Set:**  Sales Dataset 
@@ -14,7 +15,7 @@
 **Data Structure:** There are 2 tables in the dataset, which are named <kbd> Listoforders </kbd> and <kbd> Orderbreakdown </kbd>.
 
 **Relationship between the Stakeholder Requirement and the Dataset:** There is a strong relationship between the stakeholder requirement and the dataset considering column like Discount, sales, Profit and category. The dataset is super rich and it’s capable of providing relevant insights.
-
+<br><br>
 ## Analysis Pipe Line
 
 **Data Source:** SharePoint
@@ -72,7 +73,7 @@ Hence new column and Tables were created, which are listed below
  - A Measure Table was created to house the Dax Functions
 
    ![](Table.png)
-   
+   <br><br>
 ## Data Modelling 
 
 The data provided for this analysis are located on two tables and new a new Calendar table was also created. 
@@ -82,12 +83,35 @@ You must understand the snowflake model which will enable you know how to carry 
 
    - 	For <kbd>Orderbreakdown Table</kbd> and <kbd>Listoforders Table</kbd> is <kbd>Order ID</kbd>
    - 	For <kbd>Listoforders Table</kbd>  and <kbd>Calendar Table</kbd> is <kbd>Order Date</kbd> and <kbd>Date</kbd> Respectively.
-
+<br><br>
 ![](Snowflake.png)
+<br><br>
+## Analysis
 
-##
+Complex Dax functions were employed to solve business problem.
 
-    
+   1. Year on Year Growth is abbreviated as <kbd>YoY_Growth</kbd>
+   
+      <kbd>YoY_Growth</kbd> = (Current year Profit – Previous Year Profit) divide by Previous Year Profit
+      
+      The Dax function used to achieve this data manipulation was the <kbd>Divide function</kbd>
+      
+       <kbd>YoY_Growth</kbd> = <kbd>DIVIDE</kbd> ( (<kbd>[Total Profit] </kbd> - <kbd> [PY_Prof] </kbd>), <kbd> [PY_Prof]</kbd> )
+      
+  2. **Previous Year profit** was calculated by using **complex Dax function**. A complex dax function is the combination of more than one dax function.
+     
+     Previous year profit was manipulated using a <kbd>calculate function</kbd>, <kbd>sum function</kbd> and <kbd>dateadd function</kbd> were used as shown below
+
+     <kbd>PY_Prof = CALCULATE([Total Profit], DATEADD('Dimcalendar'[Date],"-1",YEAR))</kbd>
+
+     <kbd>Calculate function</kbd> is a **filter function**, the sum of **Total Profit** is filter by <kbd>date add function</kbd>.
+
+<br><br>
+## Visualization, Trends, Patterns & Insight.  
+
+ For Live Visualiztion click here <kbd>[Live-Visualization](https://app.powerbi.com/view?r=eyJrIjoiMzczYjA0YzItYTgzZi00MTk0LTk4ZTYtN2U4MDdjYzk2ZjQ3IiwidCI6IjU0OGU5MDRlLTY2MDEtNGQ0My1iZmY3LTYzZGRlZTRjOWVlNiJ9 )</kbd>
+<br><br>
+**Home Page**
 
     
 
