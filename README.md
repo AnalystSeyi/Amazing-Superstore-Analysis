@@ -194,3 +194,58 @@ This shows that discount have a serious impact on the company profitability and 
 Its now obvious that discount have serious impact on profit, we need to check how deep it cut through.
 It was discovered that the company had only made profit with discount **<= 30%** which is **$427,092** with **6621 orders**. The company made huge lose on discount **> 30%** which is to the sum of **-$143,852** with **1426 Order**.
 Which means that the company would have made more profit for selling only product with **<= 30% discount** than the company **Overall Total Profit**, because selling product which are **> 30% discount** resulted into loses and reduced the company profitability. <br>This is applicable to all the years and category frame. 
+
+<br> 
+
+**Analyzing Country by Discount**
+
+![](CountryDiscount.png)
+
+**5 countries** named **Austria**, **Belgium**, **Switzerland**, **Norway** and **Finland** did not offer discount and they made a cumulative profit of **$47,553** with a total number of **611 order** but which is only **52.6%** of the **Totall Profit** made by **United Kingdom ** which is **$90,382** with **1314 orders** 
+
+The country with **zero discounts** have **minimal number of orders**, as it was previously stated that **total number of order is directly proportional to profitability**.
+<br>
+
+Despite Discount Offered in different Country, the **5 top performing countries** are **United Kingdom $90,382 (1314 Orders)**, **Germany $86,279 (1640)**, **France $70,067 (1916 Orders)**, **Spain $47,067 (761 Orders)** and **Italy $15,802 (979 Orders)**. <br>
+
+The **5 least performing countries** are **Netherland ($37,188) 393 Order**, **Sweden ($17,524) 203 Orders**, **Portugal ($8,704) 70 Orders**, **Ireland ($6,886) 100 Orders** and **Denmark ($3,608) 60 Orders**.
+
+
+One thing that is peculiar to least performing countries is that they have most of their orders in the **discount bracket of > 30%**. While the performing country orders are mostly in **<= 30% discount bracket**. 
+
+<br>
+
+**Netherland**            |          
+:----------------------------: 
+![](Dutch.png)           |      
+<br>
+
+**Sweden** |
+|:--------------------------:
+|![](Sweeden.png)
+<br>
+
+**Portugal** |
+|:--------------------------:
+|![](Portuga.png)
+<br>
+
+**While the performing countries have majority of these orders below the 30% discount Bracket**.
+
+<br>
+
+**United Kingdom**            |          
+:----------------------------: 
+![](Uk.png)           |      
+<br>
+
+**Germany** |
+|:--------------------------:
+|![](Germany.png)
+<br>
+
+**France** |
+|:--------------------------:
+|![](France.png)
+<br>
+
