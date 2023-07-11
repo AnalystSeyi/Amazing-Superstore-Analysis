@@ -265,7 +265,7 @@ More capacity and efficiency should be drive towards increase in total net order
 <br>
 
 **The goal is to provide value to the stakeholders and not just to build reports and dashboard**.
-
+<br>
 <br>
 ## Skills / concepts demonstrated.  
 
@@ -279,12 +279,12 @@ The following Power BI features were incorporated:
 -	tooltips,
 -	Button
 
-<br><br>
 ## Skills/ concepts demonstrated. 
 
-    - Microsoft Sharepoint
-    - Microsoft PowerBI Desktop
-    - Power Query Editor
-    - Microsoft Power Point      
+- Microsoft Sharepoint
+- Microsoft PowerBI Desktop
+- Power Query Editor
+- Microsoft Power Point
+  
 #
 ## Thank you.
