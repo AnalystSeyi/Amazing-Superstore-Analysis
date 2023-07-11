@@ -175,4 +175,13 @@ The impact of discount on the overall profitability was analysed
 
 **All The metrics shown above are not peculiar to a particular year or category but Universal**. 
 
+<br> 
+
+**Impact of Dicount on Profit**
+
+![](wit&witout.png)
+
+The total profit made by the company is **$283k** which is **41%** of what the company would have made if they have no discounted product **"$680k"**
+In the entire period the dataset covers, there was ***no time*** that **Profit with Discount** did **50%** of **Profit without discount**.
+This shows that discount have a serious impact on the company profitability and performance.
 
