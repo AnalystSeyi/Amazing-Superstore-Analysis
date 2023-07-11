@@ -109,13 +109,13 @@ Complex Dax functions were employed to solve business problem.
 <br><br>
 ## Visualization, Trends, Patterns & Insight.  
 
- For Live Visualiztion click here <kbd>[Live-Visualization](https://app.powerbi.com/view?r=eyJrIjoiMzczYjA0YzItYTgzZi00MTk0LTk4ZTYtN2U4MDdjYzk2ZjQ3IiwidCI6IjU0OGU5MDRlLTY2MDEtNGQ0My1iZmY3LTYzZGRlZTRjOWVlNiJ9 )</kbd>
+ For Live Visualization click here <kbd>[Live-Visualization](https://app.powerbi.com/view?r=eyJrIjoiMzczYjA0YzItYTgzZi00MTk0LTk4ZTYtN2U4MDdjYzk2ZjQ3IiwidCI6IjU0OGU5MDRlLTY2MDEtNGQ0My1iZmY3LTYzZGRlZTRjOWVlNiJ9 )</kbd>
 <br><br>
 **Home Page**
 
 ![](Home.png)
 
-The visaul above is an Home page which made it easy for navigating between different pages of this report.
+The visual above is an Home page which made it easy for navigating between different pages of this report.
 The following pages below can be interacted with on the Home Page.
 
    1. Sales Dashboard (SD) : This shows the day to day operation of the Company
@@ -153,7 +153,7 @@ Basic economic theories states that increase in number of orders is directly pro
 ![](Salechat.png)
     
 The visual above shows the 3 important metrics on the dataset, which are **Sales**, **Cost of Sale** and **Profit**. They have been on a constant upward linear trend.<br> These good metrics are as a result of the periodic increase in the number of orders over the years. <br> If all the metrics are good, why is the company profit (12%) below the industry average?
-This lead me to calculating the year to year profitability of the company 
+This led me to calculating the year to year profitability of the company 
  
 <br> 
 
@@ -163,7 +163,7 @@ This lead me to calculating the year to year profitability of the company
 
 It’s itersting to find out that despite the good metrics and increase in profit over the year, the year to year profitability growth of the company has been on a constant downward trend. Which is **21.57%** in **2012** down to **16.58%** in **2013** and **10.53%** in **2014** and this is over **50%** decline in profit growth over the last 3 years.
 It’s an eye opener, the dataset further probe to find out what is responsible for the downward trend in profit growth.
-The impact of discount on the overall profitability was analysed
+The impact of discount on the overall profitability was analyzed
 
 <br> 
 
@@ -177,7 +177,7 @@ The impact of discount on the overall profitability was analysed
 
 <br> 
 
-**Impact of Dicount on Profit**
+**Impact of Discount on Profit**
 
 ![](wit&witout.png)
 
@@ -191,7 +191,7 @@ This shows that discount have a serious impact on the company profitability and 
 
 ![](profitbydiscount.png)
 
-Its now obvious that discount have serious impact on profit, we need to check how deep it cut through.
+It's now obvious that discount have serious impact on profit, we need to check how deep it cut through.
 It was discovered that the company had only made profit with discount **<= 30%** which is **$427,092** with **6621 orders**. The company made huge lose on discount **> 30%** which is to the sum of **-$143,852** with **1426 Order**.
 Which means that the company would have made more profit for selling only product with **<= 30% discount** than the company **Overall Total Profit**, because selling product which are **> 30% discount** resulted into loses and reduced the company profitability. <br>This is applicable to all the years and category frame. 
 
@@ -201,7 +201,7 @@ Which means that the company would have made more profit for selling only produc
 
 ![](CountryDiscount.png)
 
-**5 countries** named **Austria**, **Belgium**, **Switzerland**, **Norway** and **Finland** did not offer discount and they made a cumulative profit of **$47,553** with a total number of **611 order** but which is only **52.6%** of the **Totall Profit** made by **United Kingdom ** which is **$90,382** with **1314 orders** 
+**5 countries** named **Austria**, **Belgium**, **Switzerland**, **Norway** and **Finland** did not offer discount and they made a cumulative profit of **$47,553** with a total number of **611 order** but which is only **52.6%** of the **Total Profit** made by **United Kingdom ** which is **$90,382** with **1314 orders** 
 
 The country with **zero discounts** have **minimal number of orders**, as it was previously stated that **total number of order is directly proportional to profitability**.
 <br>
@@ -261,7 +261,7 @@ One thing that is peculiar to least performing countries is that they have most 
 1. The company should look into the pattern of allocating discount to orders, the data shows that **discount >= 30%** is not healthy for it performance and profitability.
 2. Increase in **number of orders** is directly proportional to **profitability**, if **discount is < 30%**. This means that the company should work on increasing the number of orders received, so as to increase profit in countries with 0% discount. While work on it discount structure in every other countries to increase it profitability, particularly in countries with negative balance sheet.
 More capacity and efficiency should be drive towards increase in total net order.
-3. Further Research and Analysis should be carried out on why the company gives discount, how they give disount and the measure in giving discount. According to the data provided it was evidence that some disount lead to loses and upto 80% disount was applied to some cases.
+3. Further Research and Analysis should be carried out on why the company gives discount, how they give disount and the measure in giving discount. According to the data provided it was evidence that some discount lead to loses and upto 80% discount was applied to some cases.
 <br>
 
 **The goal is to provide value to the stakeholders and not just to build reports and dashboard**.
@@ -282,7 +282,7 @@ The following Power BI features were incorporated:
 ## Skills/ concepts demonstrated. 
 
 - Microsoft Sharepoint
-- Microsoft PowerBI Desktop
+- Microsoft Power BI Desktop
 - Power Query Editor
 - Microsoft Power Point
   
