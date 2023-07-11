@@ -185,3 +185,12 @@ The total profit made by the company is **$283k** which is **41%** of what the c
 In the entire period the dataset covers, there was ***no time*** that **Profit with Discount** did **50%** of **Profit without discount**.
 This shows that discount have a serious impact on the company profitability and performance.
 
+<br> 
+
+**Profit by Discount**
+
+![](profitbydiscount.png)
+
+Its now obvious that discount have serious impact on profit, we need to check how deep it cut through.
+It was discovered that the company had only made profit with discount **<= 30%** which is **$427,092** with **6621 orders**. The company made huge lose on discount **> 30%** which is to the sum of **-$143,852** with **1426 Order**.
+Which means that the company would have made more profit for selling only product with **<= 30% discount** than the company **Overall Total Profit**, because selling product which are **> 30% discount** resulted into loses and reduced the company profitability. <br>This is applicable to all the years and category frame. 
