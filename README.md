@@ -249,3 +249,19 @@ One thing that is peculiar to least performing countries is that they have most 
 |![](France.png)
 <br>
 
+**Tooltip** is activated on this visual to know the specific number of order, You can check this out on the live visual.
+
+
+ For Live Visualiztion click here <kbd>[Live-Visualization](https://app.powerbi.com/view?r=eyJrIjoiMzczYjA0YzItYTgzZi00MTk0LTk4ZTYtN2U4MDdjYzk2ZjQ3IiwidCI6IjU0OGU5MDRlLTY2MDEtNGQ0My1iZmY3LTYzZGRlZTRjOWVlNiJ9 )</kbd>
+<br><br>
+
+<br><br>
+## Conclusion and Recommendations.  
+
+1. The company should look into the pattern of allocating discount to orders, the data shows that **discount >= 30%** is not healthy for it performance and profitability.
+2. Increase in **number of orders** is directly proportional to **profitability**, if **discount is < 30%**. This means that the company should work on increasing the number of orders received, so as to increase profit in countries with 0% discount. While work on it discount structure in every other countries to increase it profitability, particularly in countries with negative balance sheet.
+More capacity and efficiency should be drive towards increase in total net order.
+3. Further Research and Analysis should be carried out on why the company is give discount, how they give disount and the measure in giving discount. According to the data provided it was evidence that some disount lead to loses and upto 80% disount was applied to some product.
+
+
+
