@@ -279,7 +279,7 @@ The following Power BI features were incorporated:
 -	tooltips,
 -	Button
 
-## Skills/ concepts demonstrated. 
+## Tools Used. 
 
 - Microsoft Sharepoint
 - Microsoft Power BI Desktop
